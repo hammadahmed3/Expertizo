@@ -1,0 +1,651 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.nav-container
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('./assets/bgimage.jpg');
+    background-repeat: no-repeat;
+    background-size: 120%;
+    
+}
+.main-contain
+{
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('./assets/bgimage.jpg');
+    background-repeat: no-repeat;
+    padding-bottom: 14%;
+    background-size: auto;
+   
+
+}
+.nav-logo
+{
+    width: 8%;
+}
+.nav-items
+{
+    display: flex ;
+}
+.navbar-menu
+{
+    justify-content: flex-end;
+}
+
+.header-body
+{
+    /* margin:  */
+    padding: 10% 0% 0% 0%;
+    text-align: center;
+    
+}
+.header-body>h1
+{
+    font-size: 65px;
+}
+.body-paragraph
+{
+    width: 71%;
+    text-align: center;
+    margin-left: 14%;
+    font-size: 19px;
+    
+
+}
+/* end of navbar and header-body */
+
+.feature-cotainer
+{
+    background-color: rgb(250, 250, 250);
+    color: black;
+    padding-top: 8%;
+    text-align: center;
+    
+}
+.feature-cotainer>h2{
+    font-size: 45px;
+}
+.feature-cards
+{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 5%;
+ 
+}
+.card-image
+{
+    border: 2px solid white;
+    width: 30%;
+    margin-bottom: 1%;
+}
+/* .feature-cards:hover
+{
+    background-color: black;
+} */
+/* end of feature cards */
+
+.offer-container
+{
+    color: black;
+    padding-top: 8%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.offer-cards
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.services-cards
+{
+    border: 2px solid rgb(250, 250, 250);
+    width: 30%;
+    display: flex;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+ 
+}
+
+.services-cards:hover
+{
+    background-color: black;
+    color: white;
+}
+.text
+{
+    padding-top: 3%;
+
+}
+.text>h3
+{
+    margin-left: 4%;
+    text-align: left;
+}
+.img 
+{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.offer-card-text
+{
+    width: 75%;
+    margin-top: 7%;
+    margin-left: 5%;
+    text-align: left;
+    color: gray;
+}
+/* end of offer services cards */
+
+.slide-container
+{
+  background-color: rgb(250, 250, 250);
+  color: black;
+  padding-top: 10%;
+  display: flex;
+  padding-bottom: 10%;
+ 
+
+}
+.left-body
+{
+    margin: 0% 0% 0% 10%;
+    
+    width: 40%;
+}
+
+.left-body>h4{
+    margin-top: 10%;
+}
+.list
+{
+    display:  flex;
+     
+}
+
+.tick-icon
+{
+    width: 7%;
+}
+.list-text
+{
+    padding-top: 10px;
+
+}
+.right-body
+{
+    width: 40%;
+}
+
+.slide-button
+{
+    height: 20px;
+}
+/* end of silder & body text */
+
+
+.carrer-container
+{
+    color: black;
+    padding-top: 8%;
+    text-align: center;
+}
+.carrer-cards
+{
+    border: 4px solid red;
+    margin-right: 3%;
+    width: 30%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    -webkit-animation: shake 0.1s ease-in-out 0.1s infinite alternate;
+    
+}
+
+@-webkit-keyframes shake {
+ from {
+    -webkit-transform: rotate(1deg);
+ }
+ to {
+   -webkit-transform-origin:center center;
+   -webkit-transform: rotate(-1deg);
+ }
+
+}
+.circle {
+
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 2px solid rgb(84, 109, 181);
+    /* color: black; */
+    margin-left: 28%;
+    padding-top: 15%;
+    font-weight: bolder;
+    
+
+}
+.carrer-text
+{
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+}
+.carrer-button
+{
+    border: 2px solid rgb(73, 98, 173);
+    color: rgb(67, 94, 177);
+    background-color: white;
+    margin-top: 5%;
+    width: 30%;
+    height: 50px;
+    font-size: 20px;
+}
+.carrer
+{
+    display: flex;
+    justify-content: flex-start; 
+    flex-wrap: wrap;
+   
+}
+
+
+.carrer-cards1
+{
+    border: 3px solid rgb(250, 250, 250);
+    width: 30%;
+    height: 500px;
+    padding-top: 3%;
+    margin-right: 3%;
+}
+
+.carrer-cards2
+{
+    border: 3px solid rgb(250, 250, 250);
+    width: 30%;
+    height: 500px;
+    padding-top: 3%;
+    margin-top: 5%;
+    margin-right: 3%;
+  
+}
+
+.carrer-cards:hover
+{
+    background-color: black;
+    color: white;
+}
+.carrer-cards1:hover
+{
+    background-color: black;
+    color: white;
+}
+.carrer-cards2:hover
+{
+    background-color: black;
+    color: white;
+}
+/* end of carrer */
+
+.testenomial-cont
+{
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),url('./assets/bgimage1.jpg');
+   padding-bottom: 5%;
+   margin-top: 2%;
+
+}
+.testomonial_container{
+    overflow: hidden;
+    position: relative;
+    height: 550px;
+}
+
+.testomonials{
+    width: 76%;
+    margin-top: 15%;
+  
+}
+.testomonial{
+
+    width: 30%;
+    padding-top: 5%
+}
+
+.avatar{
+    width: 6.5rem;
+    height: 6.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    
+    
+}
+.testomonial_info
+{
+   
+    margin: 4% 0% 0% 4%;
+}
+.testomonial_info>small
+{
+   color: rgb(39, 107, 252);
+}
+.testomonial_body{
+    margin-top: 5%;
+   
+}
+.test{
+  display: flex;
+  
+}
+
+/* end of testenomial */
+
+.multi-cards
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+.founders
+{
+    color: black;
+    padding-top: 8%;
+    text-align: center;
+    font: bolder;
+}
+.founder-cards
+{
+    background-color: rgb(250, 250, 250);
+    width: 35%;
+    padding-bottom: 2%;
+    margin-right: 2%;
+}
+.found-img
+{
+    width: 90%;
+    margin: 10% auto;
+}
+/* end of founders cards */
+
+.founder-cards:hover
+{
+    background: radial-gradient(circle at 24% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99%);
+    color: white;
+    
+}
+
+
+.contact
+{
+    color: black;
+    padding-top: 8%;
+    text-align: center;
+    font: bolder;
+
+}
+.contact-item
+{
+    
+    width: 30%;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.contact-cards
+{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding-bottom: 5%;
+
+}
+.icons-contact
+{
+    width: 20%;
+
+    margin: 5% 0% 2% 41%;
+}
+.contact-text>p
+{
+    color: gray;
+    font-weight: 500;
+    font-size: 18px;
+}
+/* end of contact */
+
+/* blue line vertical  */
+.blue-line
+{
+    width: 5%;
+    margin-left: 48%;
+}
+.blue-line1
+{
+    width: 5%;
+    margin-left: 47%;
+}
+.blue-line-slide
+{
+    width: 12%;
+   
+}
+/* end of blue line */
+.footer 
+{
+   background-color: rgb(28, 29, 33);
+   padding-bottom: 4%;
+   margin-bottom: 8%;
+   margin-top: 4%;
+}
+
+.expertizo-logo
+{
+    width: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.footer-text
+{
+    text-align: center;
+    margin-top: 2%;
+    color: gray;
+}
+.footer-color
+{
+    color: rgb(93, 140, 235);
+    
+}
+/* end of footer */
+
+#back-to-top {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: #6195FF;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+
+/* responsive for mobile */
+@media screen and (max-width: 600px)  
+{
+    .nav-logo
+    {
+        width: 20%;
+    }
+   
+    .header-body
+    {
+       width: 100%;
+        
+        
+    }
+    
+    .card-image
+    {
+        width: 45%;
+    }
+    .offer-cards
+    {
+        flex-direction: column;
+    }
+    .services-cards
+    {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    
+    .offer-card-text
+    {
+        margin-left: 10%;
+    }
+    .text>h3
+    {
+        text-align: left;
+        margin-left: 10%;
+    }
+    .left-body
+    {
+        margin: auto;
+        padding: auto;
+        width: 90%;
+       
+       
+    }
+    .tick-icon
+    {
+        width: 8%;
+        
+    }
+    .list{
+        width: 100%;
+    }
+    .slide-container
+    {
+        flex-direction: column;
+    
+    }
+    .right-body
+    {
+        width: 100%;
+    }
+    .carrer-cards{
+        margin: 8%;
+        width: 90%;
+    }
+    .circle
+    {
+        width: 130px;
+        height: 130px;
+        font-size: 14px;
+        margin-left: 36%;
+        
+    }
+  
+    .circle>p
+    {
+        margin-top: -18%;
+        
+       
+    }
+    .carrer{
+        flex-direction: column;
+    }
+    .carrer-cards1{
+        margin: 8%;
+        width: 90%;
+        height: 430px;
+    }
+    .carrer-cards2{
+        margin: 8%;
+        width: 90%;
+        height: 430px;
+    }
+    .carrer-cards>p
+    {
+        left: 10%;
+    }
+    .multi-cards
+    {
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        
+    }
+    .founder-cards
+    {
+        width: 70%;
+        margin-top: 5%;
+    }
+    .contact-cards
+    {
+        flex-direction: column;
+        
+    }
+    .contact-item
+    {
+        width: 100%;
+    }
+    .footer
+    {
+        width: 100%;
+    }
+    .expertizo-logo
+    {
+        width: 25%;
+    }
+    .footer-text{
+        width: 90%;
+        text-align: center;
+        font-size:18px;
+        margin-left: 4%;
+    }
+}
+
+/* responsive for iphones */
+@media screen and (max-width: 450px)  
+{
+    .circle
+    {
+        
+        width: 120px;
+        height: 120px;
+        font-size: 14px;
+        margin-left: 29%;
+        
+    }
+    .circle>p
+    {
+        margin-top: -5%;
+    }
+    .avatar
+    {
+        width: 60%;
+    }
+    .testomonial_info
+    {
+        width: 100%;
+        font-size: 14px;
+    }
+    .founder-name>h5
+    {
+        width: 100%;
+        font-size: 18px;
+    }
+    .carrer-cards1
+    {
+        height: 450px;
+    }
+}
